@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>registration</title>
+	
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+        <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background:#66CCFF">
+        <div class="container" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index1.html" style="color:#FFFFFF">Online feedback System</a>
+				
+				
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+					 <li style="color:#FFFFFF">
+                        <a style="color:#FFFFFF" href="index1.html"><i class="fa fa-home fa-fw"></i>Home</a>
+                    </li>
+					
+					<li style="color:#FFFFFF">
+                        <a style="color:#FFFFFF" href="about1.html"><i class="fa fa-home fa-fw"></i>About</a>
+                    </li>
+					
+					<li><a style="color:#FFFFFF" href="registration1.html"><i class="fa fa-sign-out fa-fw"></i>Registration</a></li>
+				
+				
+								
+	<li class="dropdown">
+        <a style="color:#FFFFFF" href="#" class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-sign-in fa-fw"></i>Login
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          
+          <li><a href="login1.html">Student</a></li>
+		  <li><a href="faculty_login1.html">Faculty</a></li> 
+          <li><a href="admin">Admin</a></li> 
+        </ul>
+      </li> 
+	  
+	
+	  
+	  
+	 <li>
+                        <a style="color:#FFFFFF" href="contact1.html"><i class="fa fa-phone fa-fw"></i>Contact</a>
+                    </li>
+					 	
+					
+                   
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+		<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+		<form method="post" enctype="multipart/form-data">
+		<table class="table table-bordered" style="margin-bottom:50px">
+	<caption><h2 align="center">Registration Form</h2></caption>
+	<tr>
+		<td colspan="2"></td>
+	</tr>
+				
+				<tr>
+					<td>Enter Your name</td>
+					<td><input  type="text" name="n" class="form-control" required/></td>
+				</tr>
+				<tr>
+					<td>Enter Your email </td>
+					<td><input type="email" name="e" class="form-control" required/></td>
+				</tr>
+				
+				<tr>
+					<td>Enter Your Password </td>
+					<td><input type="password" name="p" class="form-control" required/></td>
+				</tr>
+				
+				<tr>
+					<td>Enter Your Mobile </td>
+					<td><input type="text" name="mob" class="form-control" required/></td>
+				</tr>
+				
+				<tr>
+					<td>Select Your Programme</td>
+					<td><select name="pro" class="form-control" required>
+					
+					<option>BCA</option>
+					<option>MCA</option>
+					<option>B.Tech</option>
+					<option>M.Tech</option>
+					</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Select Your Semester</td>
+					<td><select name="sem" class="form-control" required>
+					
+					<option>i</option>
+					<option>ii</option>
+					<option>iii</option>
+					<option>iv</option>
+					<option>v</option>
+					<option>vi</option>
+					<option>vii</option>
+					<option>viii</option>
+					</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Select Your Gender</td>
+					<td>
+				Male<input type="radio" name="gen" value="m"/>
+				Female<input type="radio" name="gen" value="f"/>	
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Choose Your hobbies</td>
+					<td>
+					Reading<input value="reading" type="checkbox" name="hob[]"/>
+					Singing<input value="singin" type="checkbox" name="hob[]"/>
+					
+					Playing<input value="playing" type="checkbox" name="hob[]"/>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td>Upload  Your Image </td>
+					<td><input type="file" name="img" class="form-control" required/></td>
+				</tr>
+				
+				<tr>
+					<td>Enter Your DOB</td>
+					<td>
+					<select style="width:100px;float:left" name="yy" class="form-control" required>
+					<option value="">Year</option>
+					
+					
+					</select>
+					
+ 					
+					<select style="width:100px;float:left" name="dd" class="form-control" required>
+					<option value="">Date</option>
+					
+					
+					</select>
+					
+					</td>
+				</tr>
+				
+				<tr>
+					
+					
+<td colspan="2" align="center">
+<input type="submit" value="Save" class="btn btn-info" name="save"/>
+<input type="reset" value="Reset" class="btn btn-info"/>
+				
+					</td>
+				</tr>
+			</table>
+		</form>
+		</div>
+		<div class="col-sm-2"></div>
+		</div>
+        <div class="navbar-fixed-bottom nav navbar-inverse text-center" style="padding:15px;height:40px; background:#66CCFF">
+		<span style="color:#FFFFFF">copyright@ganpatuniversity </span>
+	</div>
+     <!-- jQuery -->
+    <script src="css/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="css/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+	</body>
+</html>
+</body>
+</html>

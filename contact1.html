@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Online feedback System</title>
+	
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+ <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background:#66CCFF">
+        <div class="container" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index1.html" style="color:#FFFFFF">Online feedback System</a>
+				
+				
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+					 <li style="color:#FFFFFF">
+                        <a style="color:#FFFFFF" href="index1.html"><i class="fa fa-home fa-fw"></i>Home</a>
+                    </li>
+					
+					<li style="color:#FFFFFF">
+                        <a style="color:#FFFFFF" href="about1.html"><i class="fa fa-home fa-fw"></i>About</a>
+                    </li>
+					
+					<li><a style="color:#FFFFFF" href="registration1.html"  ><i class="fa fa-sign-out fa-fw"></i>Registration</a></li>
+				
+				
+								
+	<li class="dropdown">
+        <a style="color:#FFFFFF" href="#" class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-sign-in fa-fw"></i>Login
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          
+          <li><a href="login1.html">Student</a></li>
+		  <li><a href="faculty_login1.html">Faculty</a></li> 
+          <li><a>Admin</a></li> 
+        </ul>
+      </li> 
+	  
+	
+	  
+	  
+	 <li>
+                        <a style="color:#FFFFFF" ><i class="fa fa-phone fa-fw"></i>Contact</a>
+                    </li>
+					 	
+					
+                   
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+        <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                
+                <ol class="breadcrumb">
+                    
+                    </li>
+                   
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+       <div class="row">
+            <div class="col-md-8">
+                <h3><font color="#00FF33">Contact us </font></h3>
+                <form name="sentMessage" method="post" id="contactForm" novalidate>
+                 
+				    <div class="control-group form-group">
+                        
+						
+						<div class="controls">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" name="n" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Mobile Number:</label>
+                            <input type="number" class="form-control" name="m" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" name="e" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" name="msg" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" name="save" class="btn btn-primary">Send Message</button>
+					<h1></h1>
+                </form>
+            </div>
+			<div class="col-md-4" style="margin-top:30px">
+                <h3>Contact Details</h3>
+                <p>
+                    E-20 Sector 63<br> India <br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Sunday: 9:00 AM to 9:00 PM</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        
+            <!-- Contact Details Column -->
+            
+        <!-- /.row -->
+
+        <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <!-- /.row -->
+
+    <br/><br/>
+    
+    </div>
+    <!-- /.container -->
+    <div class="navbar-fixed-bottom nav navbar-inverse text-center" style="padding:15px;height:40px; background:#66CCFF">
+		<span style="color:#FFFFFF">copyright@ganpatuniversity </span>
+	</div>
+        <!-- Footer -->
+         <!-- jQuery -->
+    <script src="css/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="css/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+    </body>
+    </html>
